@@ -1,0 +1,15 @@
+{
+  "outputDirectory": "public",
+  "redirects": [
+    { "source": "/", "destination": "/TSK-brochure.pdf", "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/TSK-brochure.pdf",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" },
+        { "key": "Content-Disposition", "value": "inline; filename=\"TSK-brochure.pdf\"" }
+      ]
+    }
+  ]
+}
