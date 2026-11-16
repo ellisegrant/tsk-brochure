@@ -1,5 +1,4 @@
 {
-  "outputDirectory": "public",
   "redirects": [
     { "source": "/", "destination": "/TSK-brochure.pdf", "permanent": false }
   ],
